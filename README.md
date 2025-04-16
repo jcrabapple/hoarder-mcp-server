@@ -1,20 +1,20 @@
-# Hoarder MCP Server
+# Karakeep (Hoarder) MCP Server
 
-This project provides a Mind Control Panel (MCP) compatible server that allows interactions (searching and creating bookmarks) with the [Hoarder](https://karakeep.app/) bookmarking service via its API.
+This project provides a Mind Control Panel (MCP) compatible server that allows interactions (searching and creating bookmarks) with the [Karakeep](https://karakeep.app/) bookmarking service via its API.
 
 It's designed to be used by Large Language Models (LLMs) or other clients capable of making HTTP requests according to the MCP protocol defined by services like [Glama.ai](https://glama.ai/).
 
 ## Features
 
-*   **Search Bookmarks:** Find existing bookmarks in Hoarder based on a query string.
-*   **Create Bookmarks:** Add new bookmarks to Hoarder with a URL and optional title/description.
+*   **Search Bookmarks:** Find existing bookmarks in Karakeep based on a query string.
+*   **Create Bookmarks:** Add new bookmarks to Karakeep with a URL and optional title/description.
 *   **MCP Compatible Endpoint:** Exposes a single `/mcp` endpoint for actions.
 *   **Environment Variable Configuration:** Securely configure your Hoarder API key.
 
 ## Prerequisites
 
 *   Python 3.8+
-*   A Hoarder account and API Key ([See Hoarder API Docs](https://docs.karakeep.app/API/hoarder-api))
+*   A Karakeep account and API Key ([See Karakeep API Docs](https://docs.karakeep.app/API/hoarder-api))
 *   Access to a hosting platform (e.g., Render, Heroku, Fly.io, VPS) or Docker for deployment.
 
 ## Setup and Local Development
