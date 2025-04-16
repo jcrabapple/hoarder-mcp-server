@@ -65,3 +65,7 @@ The server exposes a single POST endpoint: `/mcp`.
     // ... action-specific parameters
   }
 }
+
+<a href="https://glama.ai/mcp/servers/@jcrabapple/hoarder-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@jcrabapple/hoarder-mcp-server/badge" />
+</a>
